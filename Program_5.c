@@ -10,16 +10,17 @@
 int main()
 {
     int a, b, temp;
+    printf("Enter the values of a and b\n");
     scanf("%d%d", &a, &b);
+    printf("the values of a and b before swaping is %d%d\n",a,b);
 
     //Write your code here
     temp = a;
     a=b;
     b = temp;
 
-    
+    printf("the values after swaping is:%d %d\n",a,b);
+     
 
-  
-    printf("%d %d\n", a, b);
-    return 0;
+     return 0;
 }
